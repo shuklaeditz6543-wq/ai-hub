@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hub</title>
+    <meta name="description" content="AI Hub - Discover the best AI tools for Chat, Image, Video, Coding, Voice and Productivity. Compare top AI tools and read expert reviews.">
+
+<meta name="keywords" content="AI Tools, ChatGPT, Gemini, Claude, AI Image Generator, AI Video Generator, AI Voice, AI Hub, Artificial Intelligence">
+
+<meta name="author" content="Shukla">
+
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="AI Hub - Best AI Tools">
+
+<meta property="og:description" content="Explore the latest AI tools with reviews, comparisons and blogs.">
+
+<meta property="og:type" content="website">
+
+<meta property="og:image" content="logo.png">
+
+<link rel="icon" href="logo.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🤖 AI Hub</div>
+    <div class="nav-right">
+    <a href="#home">Home</a>
+    <a href="#tools">Tools</a>
+    <a href="#categories">Categories</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="blog.html">📰 Blog</a>
+    <div class="user-profile">
+    <div class="avatar">👤</div>
+    <span id="userName"></span>
+</div>
+
+    <button id="logoutBtn">🚪 Logout</button>
+</div>
+<a href="admin.html" id="adminBtn" style="display:none;">⚙️ Admin Panel</a>
+</header>
+
+<section class="hero">
+    <h1>Discover The Best AI Tools 🚀</h1>
+
+    <p>
+        Find the latest AI tools for Chat, Image, Video,
+        Coding and Productivity — all in one place.
+    </p>
+
+    <button id="exploreBtn">Explore Tools</button>
+    <a href="about.html" class="visit-btn">
+    ℹ️ About AI Hub
+</a>
+</section>
+<div class="search-box">
+  <input type="text" id="search" placeholder="🔍 Search AI Tools...">
+</div>
+<div class="filter-buttons">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="chat">Chat</button>
+  <button class="filter-btn" data-filter="image">Image</button>
+  <button class="filter-btn" data-filter="video">Video</button>
+  <button class="filter-btn" data-filter="coding">Coding</button>
+</div>
+
+<section class="features">
+
+    <div class="card tool-card">
+        <h2>💬 AI Chat</h2>
+        <p>Best AI Chatbots</p>
+    </div>
+
+    <div class="card tool-card">
+        <h2>🎨 AI Image</h2>
+        <p>Create Amazing Images</p>
+    </div>
+
+    <div class="card tool-card">
+        <h2>🎬 AI Video</h2>
+        <p>Create AI Videos</p>
+    </div>
+
+    <div class="card tool-card">
+        <h2>💻 AI Coding</h2>
+        <p>Best Coding Assistants</p>
+    </div>
+
+</section>
+<section class="featured">
+    
+    <h2>⭐ Featured AI Tool</h2>
+    
+    <div class="featured-card">
+        
+        <h3>🤖 ChatGPT</h3>
+        
+        <p>
+            ChatGPT is one of the world's most popular AI assistants.
+            You can use it for studying, coding, writing, translations,
+            brainstorming and much more.
+        </p>
+        
+        <a href="chatgpt.html" class="visit-btn">
+    View Details
+</a>
+        
+    </div>
+    
+</section>
+<a href="compare.html" class="visit-btn">
+    ⚖️ Compare AI Tools
+</a>
+<section class="trending">
+    
+    <h2>📈 Trending AI Tools</h2>
+    
+    <div class="card">
+        <h3>🥇 ChatGPT</h3>
+        <p>👥 500M+ Users</p>
+        <p>⭐ 5.0</p>
+    </div>
+    
+    <div class="card">
+        <h3>🥈 Gemini</h3>
+        <p>👥 350M+ Users</p>
+        <p>⭐ 4.9</p>
+    </div>
+    
+    <div class="card">
+        <h3>🥉 Claude</h3>
+        <p>👥 100M+ Users</p>
+        <p>⭐ 4.8</p>
+    </div>
+    
+    <div class="card">
+        <h3>🏅 Perplexity</h3>
+        <p>👥 50M+ Users</p>
+        <p>⭐ 4.8</p>
+    </div>
+    <div class="card">
+    <h3>✨ Gemini</h3>
+    <p>Google AI Assistant</p>
+    <p>⭐ 4.9</p>
+
+    <a href="gemini.html" class="visit-btn">
+        View Details
+    </a>
+</div>
+    
+</section>
+<section class="top-tools">
+    <div class="search-box">
+    <input type="text" id="searchInput" placeholder="🔍 Search AI Tools...">
+</div>
+<div class="filter-box">
+    <button onclick="filterTools('all')">All</button>
+    <button onclick="filterTools('chat')">💬 Chat</button>
+    <button onclick="filterTools('image')">🎨 Image</button>
+    <button onclick="filterTools('video')">🎥 Video</button>
+    <button onclick="filterTools('voice')">🎤 Voice</button>
+</div>
+    
+    <h2>🔥 Top AI Tools</h2>
+
+    <div class="card tool-card chat">
+        <h3>🤖 ChatGPT</h3>
+        <p>Best AI Chat Assistan
+        </p>
+        <p>⭐⭐⭐⭐⭐ (5.0)</p>
+        <p><span class="free">FREE</span></p>
+       
+        <a href="chatgpt.html" class="visit-btn">
+    View Details
+</a>
+    <button class="fav-btn" data-tool="ChatGPT">
+    🤍 Favorite
+</button>
+</<div>
+    <div class="card tool-card chat">
+    <h3>🧠 Claude</h3>
+    <p>AI Writing Assistant</p>
+    <p>⭐⭐⭐⭐⭐ (4.9)</p>
+    <p><span class="free">FREE</span></p>
+
+    <a href="claude.html" class="visit-btn">
+        View Details
+    </a>
+
+    <button class="fav-btn" data-tool="Claude">
+    🤍 Favorite
+</button>
+</<div>
+<div class="card tool-card chat">
+    <h3>🔍 Perplexity</h3>
+    <p>AI Search Assistant</p>
+    <p>⭐⭐⭐⭐⭐ (4.8)</p>
+    <p><span class="free">FREE</span></p>
+
+    <a href="perplexity.html" class="visit-btn">
+        View Details
+    </a>
+
+    <button class="fav-btn" data-tool="Perplexity">
+    🤍 Favorite
+</button>
+</<div>
+
+    <div class="card tool-card image">
+        <h3>🎨 Midjourney</h3>
+        <p>Create Amazing AI Images</p>
+        <p>⭐⭐⭐⭐⭐ (4.9)</p>
+        <p><span class="paid">PAID</span></p>
+        
+        <a href="https://www.midjourney.com" target="_blank" class="visit-btn">
+    Visit Website
+</a>
+<button class="fav-btn" data-tool="Midjourney">
+    🤍 Favorite
+</button>
+    </div>
+
+    <div class="card tool-card video">
+        <h3>🎥 Runway ML</h3>
+        <p>AI Video Generator</p>
+        <p>⭐⭐⭐⭐☆ (4.8)</p>
+        <p><span class="free">FREE</span></p>
+      
+        <a href="https://runwayml.com" target="_blank" class="visit-btn">
+    Visit Website
+</a>
+<button class="fav-btn" data-tool="Runwayml">
+    🤍 Favorite
+</button>
+    </div>
+
+    <div class="card tool-card voice">
+        <h3>🎙️ ElevenLabs</h3>
+        <p>AI Voice Generator</p>
+        <p>⭐⭐⭐⭐⭐ (4.9)</p>
+        <p><span class="free">FREE</span></p>
+       
+        <a href="https://elevenlabs.io" target="_blank" class="visit-btn">
+    Visit Website
+</a>
+<button class="fav-btn" data-tool="ElevenLabs">
+    🤍 Favorite
+</button>
+    </div>
+</section>
+<a href="contact.html" class="visit-btn">
+    📧 Contact Us
+</a>
+<section class="visitor-box">
+    <h2>👥 Website Visitors</h2>
+    <h1 id="visitorCount">0</h1>
+    <p>Total Visitors</p>
+</section>
+
+<footer>
+    
+    <p>© 2026 AI Hub | Made by Shukla ❤️</p>
+    
+    <div class="footer-links">
+        
+        <a href="privacy.html">Privacy Policy</a>
+        
+        <a href="terms.html">Terms & Conditions</a>
+        
+        <a href="disclaimer.html">Disclaimer</a>
+        
+    </div>
+    
+</footer>
+
+<script src="script.js"></script>
+<script type="module" src="index.js"></script>
+
+</body>
+</html>
