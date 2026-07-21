@@ -491,3 +491,23 @@ footer{
 .footer-links a:hover{
     color:white;
 }
+.blog-btn{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:linear-gradient(135deg,#3b82f6,#0ea5e9);
+padding:16px 20px;
+border-radius:16px;
+color:white;
+text-decoration:none;
+font-weight:700;
+box-shadow:0 8px 25px rgba(14,165,233,.35);
+transition:.3s;
+}
+
+.blog-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 12px 30px rgba(14,165,233,.5);
+}
+
+        
